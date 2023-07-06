@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;500&display=swap');
+
+/* BARRA DE NAVEGAÇÃO*/
+.topnav {
+    background-color: BLACK;
+    overflow: hidden;
+  }
+  
+  /* ESTILO DO TEXTO DENTRO DA TAG LINK (A) */
+  .topnav a {
+    font-family: 'Oswald', sans-serif;
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* MUDAR A COR DA DIV QUANDO PASSA O MOUSE */
+  .topnav a:hover {
+    background-color: #ead1d1;
+    color: black;
+  }
+  
+  /* COR DA DIV ATIVADA (INÍCIO) */
+  .topnav a.active {
+    background-color: #ad66ff;
+    color: WHITE;
+  }
+  /* FIM HEADER */
+
+
+
+  /* incio footer */
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color:black;
+    color: white; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 10rem;
+    background-color:black;            /* altura do rodapé */
+    
+  }
+
+  footer a{
+    text-decoration: none;
+    color:#1dddc3;
+  }
